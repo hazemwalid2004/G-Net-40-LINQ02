@@ -25,12 +25,19 @@ namespace ASS02LINQ
             #endregion
             #region Q03
             // Take products from the list as long as Their UnitPrice is less than $25(list is ordered by price).
-           // var result = ProductList.OrderBy(s => s.UnitPrice).TakeWhile(s => s.UnitPrice < 25);
+            // var result = ProductList.OrderBy(s => s.UnitPrice).TakeWhile(s => s.UnitPrice < 25);
             #endregion
-            foreach (var item in result)
-            {
-                Console.WriteLine(item);
-            }
+            #region Q04
+            //Check if ALL products in the "Seafood" category are in stock
+            //var result = ProductList.Where(s => s.Category == "Seafood").
+            //    All(s => s.UnitsInStock > 0);
+            #endregion
+            Console.WriteLine(result);
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
         }
     }
 }
