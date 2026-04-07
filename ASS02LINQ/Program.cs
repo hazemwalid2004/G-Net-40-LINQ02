@@ -93,6 +93,12 @@ namespace ASS02LINQ
             //Get a distinct list of all product categories
             //var result = ProductList.Select(s=>s.Category).Distinct();
             #endregion
+            #region Q13
+            //find product IDs that are in setA but NOT in setB 
+            //int[] setA = { 1, 3, 5, 7, 9, 11, 13 };
+            //int[] setB = { 3, 6, 9, 12, 15, 13 };
+            //var result = setA.Except(setB);
+            #endregion
             //Console.WriteLine(result);
             //foreach (var item in result)
             //{
