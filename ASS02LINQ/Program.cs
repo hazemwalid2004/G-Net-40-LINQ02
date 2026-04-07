@@ -17,6 +17,10 @@ namespace ASS02LINQ
             //var result = ProductList.OrderByDescending(s => s.UnitPrice)
             //   .Take(3);
             #endregion
+            #region Q02
+            //show page 2 of products, with page size = 5
+            //var result = ProductList.Skip((2 - 1) * 5).Take(5);
+            #endregion
             foreach (var item in result)
             {
                 Console.WriteLine(item);
