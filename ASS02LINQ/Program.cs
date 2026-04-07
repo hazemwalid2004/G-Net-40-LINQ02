@@ -83,6 +83,11 @@ namespace ASS02LINQ
             //Calculate the total number of units in stock across all products
             //var result = ProductList.Sum(s=>s.UnitsInStock);
             #endregion
+            #region Q11
+            //Find the CHEAPEST and MOST EXPENSIVE product prices
+            //var result = ProductList.Max(s => s.UnitPrice);
+            //var result = ProductList.Min(s => s.UnitPrice);
+            #endregion
             //Console.WriteLine(result);
             //foreach (var item in result)
             //{
