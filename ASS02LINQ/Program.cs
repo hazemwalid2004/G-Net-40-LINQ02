@@ -105,6 +105,11 @@ namespace ASS02LINQ
             //string[] list2 = { "france", "SPAIN", "Italy" };
             //var result = list1.Except(list2,StringComparer.OrdinalIgnoreCase);
             #endregion
+            #region Q15
+            // Build a Dictionary<int, Product> keyed by ProductID. Then retrieve and print the product with ID = 18.
+            //var result = ProductList.ToDictionary(s => s.ProductID);
+            //Console.WriteLine(result[18]);
+            #endregion
             //Console.WriteLine(result);
             //foreach (var item in result)
             //{
