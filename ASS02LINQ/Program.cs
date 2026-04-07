@@ -61,6 +61,14 @@ namespace ASS02LINQ
             //    }
             //}
             #endregion
+            #region Q08
+            //Find all categories that have MORE THAN 3 products
+            //var result = ProductList.GroupBy(m=>m.Category).Where(n=>n.Count()>3);
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"key = {item.Key} => count = {item.Count()}");
+            //}
+            #endregion
             //Console.WriteLine(result);
             //foreach (var item in result)
             //{
