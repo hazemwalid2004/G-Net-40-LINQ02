@@ -49,6 +49,18 @@ namespace ASS02LINQ
             //    }
             //}
             #endregion
+            #region Q07
+            //Group products by Category and project only product names  per group
+            //var result = ProductList.GroupBy(s => s.Category);
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"key = {item.Key} => count = {item.Count()}");
+            //    foreach (var item1 in item)
+            //    {
+            //        Console.WriteLine($"product name = { item1.ProductName}");
+            //    }
+            //}
+            #endregion
             //Console.WriteLine(result);
             //foreach (var item in result)
             //{
