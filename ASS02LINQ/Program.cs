@@ -32,6 +32,11 @@ namespace ASS02LINQ
             //var result = ProductList.Where(s => s.Category == "Seafood").
             //    All(s => s.UnitsInStock > 0);
             #endregion
+            #region Q05
+            // Check if the ID list contains 9 
+            //int[] ids = { 3, 9, 13, 18 };
+            //var result = ids.Contains(9);
+            #endregion
             Console.WriteLine(result);
             //foreach (var item in result)
             //{
