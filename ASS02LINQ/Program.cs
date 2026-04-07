@@ -37,7 +37,19 @@ namespace ASS02LINQ
             //int[] ids = { 3, 9, 13, 18 };
             //var result = ids.Contains(9);
             #endregion
-            Console.WriteLine(result);
+            #region Q06
+            //Group all products by Category and print each group  with its product count.
+            //var result = ProductList.GroupBy(s => s.Category);
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"key = {item.Key} => count = {item.Count()}");
+            //    foreach (var item1 in item)
+            //    {
+            //        Console.WriteLine(item1);
+            //    }
+            //}
+            #endregion
+            //Console.WriteLine(result);
             //foreach (var item in result)
             //{
             //    Console.WriteLine(item);
