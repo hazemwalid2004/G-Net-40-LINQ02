@@ -5,6 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Diagnostics.Metrics;
+using System.Net.Http.Headers;
 using System.Net.NetworkInformation;
 using System.Numerics;
 using static Session01LinqG01.DataSources.Source;
@@ -87,6 +88,10 @@ namespace ASS02LINQ
             //Find the CHEAPEST and MOST EXPENSIVE product prices
             //var result = ProductList.Max(s => s.UnitPrice);
             //var result = ProductList.Min(s => s.UnitPrice);
+            #endregion
+            #region Q12
+            //Get a distinct list of all product categories
+            //var result = ProductList.Select(s=>s.Category).Distinct();
             #endregion
             //Console.WriteLine(result);
             //foreach (var item in result)
