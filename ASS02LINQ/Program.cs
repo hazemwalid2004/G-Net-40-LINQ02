@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Diagnostics.Metrics;
+using System.Net.NetworkInformation;
 using System.Numerics;
 using static Session01LinqG01.DataSources.Source;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -69,10 +70,22 @@ namespace ASS02LINQ
             //    Console.WriteLine($"key = {item.Key} => count = {item.Count()}");
             //}
             #endregion
+            #region Q09
+           // Using QUERY SYNTAX, group customers by Country, and for  each group select { Country, Count, TotalOrderValue }
+           //var result = from c in CustomerList
+           //             group c by c.Country
+           //             into customarfilter
+           //             select new {country = customarfilter.Key,count = customarfilter.Count()
+           //             ,totalordervalue= customarfilter.Sum(s=>s.Orders.Sum(o=>o.Total)) };
+            #endregion
             //Console.WriteLine(result);
             //foreach (var item in result)
             //{
             //    Console.WriteLine(item);
+            //}
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"key = {item.Key} => count = {item.Count()}");
             //}
 
         }
