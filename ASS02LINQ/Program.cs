@@ -1,6 +1,7 @@
 ﻿using Session01LinqG01.Helper;
 using Session01LinqG01.Models;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Diagnostics.Metrics;
@@ -71,12 +72,16 @@ namespace ASS02LINQ
             //}
             #endregion
             #region Q09
-           // Using QUERY SYNTAX, group customers by Country, and for  each group select { Country, Count, TotalOrderValue }
-           //var result = from c in CustomerList
-           //             group c by c.Country
-           //             into customarfilter
-           //             select new {country = customarfilter.Key,count = customarfilter.Count()
-           //             ,totalordervalue= customarfilter.Sum(s=>s.Orders.Sum(o=>o.Total)) };
+            // Using QUERY SYNTAX, group customers by Country, and for  each group select { Country, Count, TotalOrderValue }
+            //var result = from c in CustomerList
+            //             group c by c.Country
+            //             into customarfilter
+            //             select new {country = customarfilter.Key,count = customarfilter.Count()
+            //             ,totalordervalue= customarfilter.Sum(s=>s.Orders.Sum(o=>o.Total)) };
+            #endregion
+            #region Q10
+            //Calculate the total number of units in stock across all products
+            //var result = ProductList.Sum(s=>s.UnitsInStock);
             #endregion
             //Console.WriteLine(result);
             //foreach (var item in result)
