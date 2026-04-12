@@ -132,6 +132,10 @@ namespace ASS02LINQ
             //var customers = CustomerList.Where((s, i) => i < 3).Select(s => s.CompanyName);
             //var result = products.Concat(customers);
             #endregion
+            #region Q21
+            //Pair each product with a customer (by position)  and produce a string "ProductName sold to CompanyName
+            //var result = ProductList.Zip(CustomerList, (p, c) => $"{p.ProductName} sold to {c.CompanyName}");
+            #endregion
             // Console.WriteLine(result);
             //foreach (var item in result)
             //{
