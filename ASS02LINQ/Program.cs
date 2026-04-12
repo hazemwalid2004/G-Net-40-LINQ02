@@ -110,6 +110,10 @@ namespace ASS02LINQ
             //var result = ProductList.ToDictionary(s => s.ProductID);
             //Console.WriteLine(result[18]);
             #endregion
+            #region Q16
+            //Get the first product whose price is greater than $50
+            //var result =ProductList.First(s=>s.UnitPrice>50);
+            #endregion
             //Console.WriteLine(result);
             //foreach (var item in result)
             //{
