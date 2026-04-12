@@ -118,6 +118,10 @@ namespace ASS02LINQ
             //Try to get the first product with a price > $500.  it returns null instead of throwing
             //var result = ProductList.FirstOrDefault(s=>s.UnitPrice>500);
             #endregion
+            #region Q18
+            //Generate a multiplication table row for 7
+            //var result = Enumerable.Range(1,1000).Where(s=>s%7==0);
+            #endregion
             //Console.WriteLine(result);
             //foreach (var item in result)
             //{
