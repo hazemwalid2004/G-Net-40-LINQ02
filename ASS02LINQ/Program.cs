@@ -122,6 +122,10 @@ namespace ASS02LINQ
             //Generate a multiplication table row for 7
             //var result = Enumerable.Range(1,1000).Where(s=>s%7==0);
             #endregion
+            #region Q19
+            // Generate even numbers between 1 and 30.
+            var result = Enumerable.Range(1, 30).Where(s => s % 2 == 0);
+            #endregion
             //Console.WriteLine(result);
             //foreach (var item in result)
             //{
