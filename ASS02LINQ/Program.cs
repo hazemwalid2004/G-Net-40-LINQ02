@@ -124,9 +124,15 @@ namespace ASS02LINQ
             #endregion
             #region Q19
             // Generate even numbers between 1 and 30.
-            var result = Enumerable.Range(1, 30).Where(s => s % 2 == 0);
+            //var result = Enumerable.Range(1, 30).Where(s => s % 2 == 0);
             #endregion
-            //Console.WriteLine(result);
+            #region Q20
+            //Concatenate the first 3 product names with the first  3 customer company names into a single sequence
+            //var products = ProductList.Where((s, i) => i < 3).Select(s=>s.ProductName);
+            //var customers = CustomerList.Where((s, i) => i < 3).Select(s => s.CompanyName);
+            //var result = products.Concat(customers);
+            #endregion
+            // Console.WriteLine(result);
             //foreach (var item in result)
             //{
             //    Console.WriteLine(item);
